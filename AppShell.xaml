@@ -8,12 +8,16 @@
 
     <TabBar>
     <ShellContent
- Title="Bileterie"
+ Title="Bine v-am găsit!"
  ContentTemplate="{DataTemplate local:MainPage}"
  />
     <ShellContent
  Title="Despre Noi"
  ContentTemplate="{DataTemplate local:Despre_Noi}"
+ />
+        <ShellContent
+ Title="Spectacolele oferite"
+ ContentTemplate="{DataTemplate local:SpectacolEntryPage}"
  />
     </TabBar>
 </Shell>
